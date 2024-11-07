@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3282D4DB-456B-46E1-A870-BF62757CA7F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>sistema_de_gestao_escolar</RootNamespace>
+    <AssemblyName>sistema de gestao escolar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Codicoemail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codicoemail.Designer.cs">
+      <DependentUpon>Codicoemail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GESTAODataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GESTAODataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NOVA_SENHA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NOVA_SENHA.Designer.cs">
+      <DependentUpon>NOVA_SENHA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="novouser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="novouser.Designer.cs">
+      <DependentUpon>novouser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recuperar_senha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recuperar_senha.Designer.cs">
+      <DependentUpon>recuperar_senha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="selecione_usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selecione_usuarios.Designer.cs">
+      <DependentUpon>selecione_usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Codicoemail.resx">
+      <DependentUpon>Codicoemail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NOVA_SENHA.resx">
+      <DependentUpon>NOVA_SENHA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="novouser.resx">
+      <DependentUpon>novouser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="recuperar_senha.resx">
+      <DependentUpon>recuperar_senha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selecione_usuarios.resx">
+      <DependentUpon>selecione_usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GESTAODataSet.xsc">
+      <DependentUpon>GESTAODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet.xss">
+      <DependentUpon>GESTAODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet1.xsc">
+      <DependentUpon>GESTAODataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet1.xss">
+      <DependentUpon>GESTAODataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet2.xsc">
+      <DependentUpon>GESTAODataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet2.xss">
+      <DependentUpon>GESTAODataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet3.xsc">
+      <DependentUpon>GESTAODataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet3.xss">
+      <DependentUpon>GESTAODataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet4.xsc">
+      <DependentUpon>GESTAODataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet4.xss">
+      <DependentUpon>GESTAODataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet5.xsc">
+      <DependentUpon>GESTAODataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet5.xss">
+      <DependentUpon>GESTAODataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet6.xsc">
+      <DependentUpon>GESTAODataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="GESTAODataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GESTAODataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GESTAODataSet6.xss">
+      <DependentUpon>GESTAODataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngegg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\521d1c78-11a4-4a11-ae76-81a6b244c75d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\structure-light-led-movement-158826.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information-technology-2560-x-1600-background-y2avxmme2sig1g5v.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GESTAO.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

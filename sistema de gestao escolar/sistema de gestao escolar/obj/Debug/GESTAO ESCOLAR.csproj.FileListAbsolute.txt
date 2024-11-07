@@ -1,0 +1,16 @@
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\bin\Debug\sistema de gestao escolar.exe.config
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\bin\Debug\sistema de gestao escolar.exe
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\bin\Debug\sistema de gestao escolar.pdb
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\GESTAO ESCOLAR.csproj.AssemblyReference.cache
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.Form1.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.Properties.Resources.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.selecione_usuarios.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\GESTAO ESCOLAR.csproj.GenerateResource.cache
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\GESTAO ESCOLAR.csproj.CoreCompileInputs.cache
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema de gestao escolar.exe
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema de gestao escolar.pdb
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.recuperar_senha.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.Codicoemail.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.NOVA_SENHA.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\obj\Debug\sistema_de_gestao_escolar.novouser.resources
+C:\Users\JONAS\source\repos\sistema de gestao escolar\sistema de gestao escolar\bin\Debug\GESTAO.mdb
